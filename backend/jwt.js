@@ -32,3 +32,5 @@ module.exports = {
     generateToken,
     verifyToken
 }
+
+// This is a token related page
