@@ -1,0 +1,29 @@
+.container {
+    background-color: #232529;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sign-container {
+    display: flex;
+    gap: 50px;
+    background-color: transparent;
+}
+
+.item {
+    background-color: transparent;
+}
+
+.item:hover {
+    /* color: rgb(192, 254, 254); */
+    color: violet;
+    text-shadow: 3px 2px black;
+}

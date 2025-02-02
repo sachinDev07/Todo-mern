@@ -1,0 +1,70 @@
+.container-c {
+    margin: 100px;
+    height: 250px;
+    width: 200px;
+    border: 0.5px solid white;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 15px;
+    text-align: center;
+    box-shadow: 2px 3px white;
+}
+
+.c-title {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.c-des {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-c .Complete {
+    background-color: rgb(25, 163, 25);
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.container-c:hover {
+    border-color: violet;
+    box-shadow: 2px 3px violet;
+}
+
+.container-c .Complete:hover {
+    background-color: darkgreen;
+}
+
+.Completed {
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    padding: 7px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.del-btn {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    padding: 7px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.del-btn:hover {
+    background-color: maroon;
+    color: white;
+}

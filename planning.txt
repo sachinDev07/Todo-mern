@@ -1,0 +1,47 @@
+Project is Based on MERN Stack Technology
+
+
+Step 1 : We make a registration route {
+    where user can register yourself
+}
+
+Step 2 : User model {
+    username,
+    email,
+    password
+}
+
+Step 3 : We make a login route {
+    login with email and password,
+    jwt token integration
+}
+
+Step 4 : Todo Task model {
+    title,
+    description,
+    iscompleted,
+    createdAt
+}
+
+Step 5 : Make a connection between user and their todo Task{
+    using mongodb refrence
+}
+
+Step 6 : routes {
+    /register
+    /login
+    /getData
+    /create-Task
+    /update-Task
+    /delete-Task
+}
+
+
+data = [
+    {
+        title : "mern",
+        description : "i am currently learning mern Stack",
+        iscompleted: false,
+        createdAt: ...
+    }
+]
